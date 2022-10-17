@@ -1,3 +1,10 @@
+import designSvg from '../assets/design.svg';
+import engineeringSvg from '../assets/engineering.svg';
+import analyticsSvg from '../assets/analytics.svg';
+import marketingSvg from '../assets/marketing.svg';
+import strategySvg from '../assets/strategy.svg';
+import venturesSvg from '../assets/ventures.svg';
+
 type Link = {
     name: string;
     imageSrc?: string;
@@ -27,26 +34,26 @@ export const menu: Array<Link> = [
 export const services: Array<Link> = [
     {
         name: 'Design',
-        imageSrc: '/src/assets/design.svg'
+        imageSrc: designSvg
     },
     {
         name: 'Engineering',
-        imageSrc: '/src/assets/engineering.svg'
+        imageSrc: engineeringSvg
     },
     {
         name: 'Analytics',
-        imageSrc: '/src/assets/analytics.svg'
+        imageSrc: analyticsSvg
     },
     {
         name: 'Marketing',
-        imageSrc: '/src/assets/marketing.svg'
+        imageSrc: marketingSvg
     },
     {
         name: 'Strategy',
-        imageSrc: '/src/assets/strategy.svg'
+        imageSrc: strategySvg
     },
     {
         name: 'Ventures',
-        imageSrc: '/src/assets/ventures.svg'
+        imageSrc: venturesSvg
     },
 ]
