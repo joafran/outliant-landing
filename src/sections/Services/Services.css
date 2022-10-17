@@ -1,0 +1,3 @@
+.services {
+    @apply flex flex-wrap justify-center gap-2 p-4;
+}

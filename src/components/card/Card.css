@@ -1,0 +1,29 @@
+.card {
+    @apply flex flex-col items-center 
+    w-full max-w-[250px] lg:max-w-[400px] max-h-[300px]
+    border-[1px] border-[color:var(--primary-color)] border-solid;
+    box-shadow: 0 0 5px var(--primary-color);
+    transition: all 250ms linear;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: var(--primary-color)
+}
+
+.card:hover img {
+    background-color: var(--secondary-color);
+}
+
+.card:hover h2 {
+    color: var(--secondary-color)
+}
+
+.card h2 {
+    @apply text-3xl font-bold p-2 mb-6;
+}
+
+.card img {
+    @apply w-full h-[200px];
+    transition: all 250ms linear;
+}

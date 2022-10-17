@@ -1,0 +1,33 @@
+.navbar {
+    @apply 
+    w-full 
+    relative
+    flex justify-between
+    p-8
+    text-white
+    z-10;
+}
+
+.navbar-main-link {
+    @apply cursor-pointer text-3xl font-bold;
+    transition-duration: 250ms;
+}
+
+.navbar-main-link:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 5px var(--primary-color)
+} 
+
+.navbar-menu {
+    @apply flex;
+}
+
+.menu__item {
+    @apply hidden md:block sm:text-xl text-lg lg:text-2xl font-semibold cursor-pointer mx-4;
+    transition-duration: 250ms;
+}
+
+.menu__item:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 3px var(--primary-color)
+} 

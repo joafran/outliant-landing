@@ -1,0 +1,34 @@
+.learnmore-container {
+    @apply w-full justify-center items-center px-10 sm:pr-0 lg:pl-16 py-14;
+}
+
+.learnmore-content {
+    @apply max-w-2xl;
+}
+
+.learnmore-content p {
+    @apply text-lg lg:text-2xl font-thin mb-10;
+}
+
+.learnmore-img {
+    @apply hidden md:block w-full;
+    animation: float 3s linear infinite;
+}
+
+.learnmore-btn {
+    @apply mt-2 pt-2 text-lg lg:text-3xl font-semibold relative;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

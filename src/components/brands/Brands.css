@@ -1,0 +1,26 @@
+.brands {
+    background-color: var(--primary-color);
+}
+
+.brands-slider {
+    @apply overflow-hidden;
+}
+
+.slider {
+    @apply flex items-center w-[6200px] h-24;
+    animation: scroll 40s linear infinite;
+}
+
+.slider img {
+    @apply w-full;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }    
+    100% {
+        transform: translateX(-3070px);
+    }
+}
