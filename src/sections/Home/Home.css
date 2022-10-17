@@ -21,7 +21,7 @@
 }
 
 .home-content__header h2 {
-    @apply text-4xl sm:text-8xl font-semibold;
+    @apply text-7xl sm:text-8xl font-semibold;
 }
 
 .home-content__header p {
@@ -62,7 +62,7 @@
 }
 
 .header-whiteline {
-    @apply flex items-center justify-center;
+    @apply hidden sm:flex items-center justify-center;
 }
 
 .white-line {

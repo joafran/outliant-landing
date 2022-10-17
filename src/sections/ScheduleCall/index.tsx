@@ -1,8 +1,8 @@
 
 const ScheduleCall = () => {
   return (
-    <div className='h-screen flex flex-col justify-center items-center'>
-      <h2 className='text-8xl text-center font-bold'>
+    <div className='h-screen flex flex-col justify-center items-center px-4'>
+      <h2 className='text-7xl text-center font-bold'>
         Your <span className='text-[color:var(--primary-color)]'>future,</span>
         <br/>
         together.
